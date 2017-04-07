@@ -1,0 +1,30 @@
+{
+  "name": "test",
+  "authors": [
+    "test"
+  ],
+  "description": "",
+  "main": "",
+  "license": "MIT",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "^3.3.7",
+    "adminbsb-materialdesign": "^1.0.4",
+    "material-design-icons": "^3.0.1"
+  },
+  "overrides": {
+    "adminbsb-materialdesign": {
+      "main": "style.scss"
+    },
+    "material-design-icons": {
+     "ignore": true
+    }
+  }
+}
